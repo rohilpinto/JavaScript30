@@ -11,7 +11,7 @@ html {
   font-family: sans-serif;
   background-color: #272727;
   overflow: hidden;
- 
+  box-sizing: border-box;
 }
 
 .keys {
@@ -24,15 +24,61 @@ html {
 }
 
 .identifiers {
-  /* background: red; */
+  width: 300px;
   height: 200px;
   color: white;
+  font-size: 1.5rem;
+  /* border: 1px solid #000; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.identifiers :nth-child(1) {
-  margin-top:  ;
-  margin-bottom: 120px;
+.container {
+  display: flex;
+
+  /* border: 1px solid rgb(255, 63, 63); */
+  /* justify-content: space-between; */
+  text-align: right;
+  width: 100%;
 }
+
+.text-wrap {
+  /* padding: 5px; */
+
+  width: 50%;
+  top: 0;
+  position: relative;
+  top: -5px;
+}
+
+.span-wrap {
+  position: relative;
+  width: 50%;
+  font-size: 2.7rem;
+}
+
+.span-wrap span {
+  display: inline-block;
+  margin-top: 6px;
+}
+
+.identifiers :nth-child(2) .text-wrap {
+  width: 100%;
+  margin-top: 0px;
+  top: 0px;
+}
+
+.identifiers :nth-child(2) .span-wrap {
+  margin-top: 6px;
+}
+
+/*
+.container:nth-child(2) {
+   border: 1px solid #000; 
+}
+
+*/
 
 .key {
   border: 0.4rem solid black;
@@ -47,26 +93,21 @@ html {
   background: rgba(0, 0, 0, 0.4);
   text-shadow: 0 0 0.5rem black;
   border: 1px solid rgb(161, 151, 1);
-
-  
 }
 
 .title-wrapper {
   display: flex;
   justify-content: center;
   align-content: center;
- 
- 
-   
+
   width: 100%;
-  
 }
 
 .title {
   color: white;
   border-bottom-style: solid;
   border-bottom-width: 5px;
-   
+  font-size: 7rem;
 }
 .flex {
   display: flex;
@@ -100,3 +141,24 @@ kbd {
   letter-spacing: 0.1rem;
   color: #ffc600;
 }
+
+
+footer {
+ display: flex;
+  width: 400px;
+  font-size: 2.5rem;
+  /* border: 1px solid #000; */
+  justify-content: space-around;
+  flex-direction: column;
+  margin-top: 90px;
+  text-align: center;
+}
+
+footer p {
+  display: inline-block;
+  background-color: white;
+  padding: 1rem;
+  margin: -10px;
+  border-radius: 5px;
+}
+ 
