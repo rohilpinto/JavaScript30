@@ -154,6 +154,12 @@ footer {
   text-align: center;
 }
 
+.key-parent-span {
+
+ 
+  display: flex;
+}
+
 footer p {
   display: inline-block;
   background-color: white;
