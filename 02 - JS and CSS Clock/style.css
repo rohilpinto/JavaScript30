@@ -30,7 +30,7 @@ body {
   bottom: 50%;
   left: 50%;
   transform: translate(-50%, 60%) ;
-
+  z-index: 200;
 }
 
 .clock {
