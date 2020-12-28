@@ -43,11 +43,11 @@ body {
 	flex-direction: column;
 }
 
-.panel1 { background-image:url(imgs/photo-of-foggy-forest-1367192.jpg);  }
-.panel2 { background-image:url(imgs/eric-muller-rSlaCdLodZY-unsplash.jpg); }
-.panel3 { background-image:url(imgs/38225241934_221f08b5ba_o.jpg); }
-.panel4 { background-image:url(imgs/Future\ City.png); }
-.panel5 { background-image:url(imgs/wallhaven-oxo7r5.png); }
+.panel1 { background-image:url(https://images.unsplash.com/photo-1608749333098-a72487cff005?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=674&q=80);  }
+.panel2 { background-image:url(https://images.unsplash.com/photo-1609050470950-2fb5715d84ac?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80); }
+.panel3 { background-image:url(https://images.unsplash.com/photo-1609008804651-1305d9ebd21d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80); }
+.panel4 { background-image:url(https://images.unsplash.com/photo-1609058756891-9e44af7f05bb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80); }
+.panel5 { background-image:url(https://images.unsplash.com/photo-1609058745964-cbd0905acb1f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80); }
 
 /* Flex Children */
 .panel > * {
